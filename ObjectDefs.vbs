@@ -540,7 +540,7 @@ Class Shell
 	Function CreateShortcut(PathLink)
 	End Function
 	
-	Function Exec(Command)
+	Function Exec(Command) ' As ShellExec
 	End Function
 	
 	Function ExpandEnvironmentStrings(Src) ' As String
@@ -602,3 +602,26 @@ Private Class Picture
 	End Property
 
 End Class
+
+Private Class ShellExec
+	Property Get ExitCode ' As Integer
+	End Property
+
+	Property Get ProcessID ' As Long
+	End Property
+
+	Property Get Status ' As Long
+	End Property
+
+	Property Get StdErr 'As TextStream
+	End Property
+
+	property Get StdIn 'As TextStream
+	End Property
+
+	Property Get StdOut 'As TextStream
+	End Property
+
+	Sub Terminate()
+	end sub
+end if 
