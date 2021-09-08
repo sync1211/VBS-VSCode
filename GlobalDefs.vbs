@@ -29,18 +29,23 @@ End Function
 Function CBool(expr) ' As Boolean
 End Function
 
+''' <summary>Returns an expression that has been converted to a Variant of subtype Byte.</summary>
 Function CByte(expr) ' As Byte
 End Function
 
+''' <summary>Returns an expression that has been converted to a Variant of subtype Currency.</summary>
 Function CCur(expr) ' As Currency
 End Function
 
+''' <summary>Returns an expression that has been converted to a Variant of subtype Date.</summary>
 Function CDate(expr) ' As Date
 End Function
 
+''' <summary>Returns an expression that has been converted to a Variant of subtype Double.</summary>
 Function CDbl(expr) ' As Double
 End Function
 
+'TODO: https://www.oreilly.com/library/view/vbscript-in-a/1565927206/re11.html
 Function Chr(charcode)
 End Function
 
