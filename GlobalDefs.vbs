@@ -45,19 +45,23 @@ End Function
 Function CDbl(expr) ' As Double
 End Function
 
-'TODO: https://www.oreilly.com/library/view/vbscript-in-a/1565927206/re11.html
+'''<summary>Returns the ASCII/ANSI character associated with the provided code</summary>
 Function Chr(charcode)
 End Function
 
+'''<summary>Returns the one-byte string associated with the given character code.</summary>
 Function ChrB(charcode)
 End Function
 
+'''<summary>Returns the unicode character associated with the given provided code</summary>
 Function ChrW(charcode)
 End Function
 
+''' <summary>Returns an expression that has been converted to a Variant of subtype Integer.</summary>
 Function CInt(expr) ' As Integer
 End Function
 
+''' <summary>Returns an expression that has been converted to a Variant of subtype Long.</summary>
 Function CLng(expr) ' As Long
 End Function
 
