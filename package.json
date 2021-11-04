@@ -3,7 +3,7 @@
   "displayName": "VBS",
   "description": "VBScript Language Support",
   "version": "1.2.1",
-  "publisher": "Serpen",
+  "publisher": "Sync1211",
   "icon": "assets/logo.png",
   "galleryBanner": {
     "color": "#6EE5E5",
@@ -21,7 +21,7 @@
     "VBScript"
   ],
   "bugs": {
-    "url": "https://github.com/Serpen/VBS-VSCode/issues"
+    "url": "https://github.com/Sync1211/VBS-VSCode/issues"
   },
   "license": "MIT",
   "main": "./dist/extension",
@@ -30,9 +30,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Serpen/VBS-VSCode.git"
+    "url": "https://github.com/Sync1211/VBS-VSCode.git"
   },
-  "homepage": "https://github.com/Serpen/VBS-VSCode",
+  "homepage": "https://github.com/Sync1211/VBS-VSCode",
   "contributes": {
     "debuggers": [
       {

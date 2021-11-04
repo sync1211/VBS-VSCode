@@ -88,6 +88,17 @@ End Function
 ''' <param name="number">Numeric expression that is the number of interval you want to add. The numeric expression can either be positive, for dates in the future, or negative, for dates in the past.</param>
 ''' <param name="date">Variant or literal representing the date to which interval is added.</param>
 Function DateAdd(interval, number, date)
+' Interval takes the following values:    
+' yyyy | Year
+' q    | Quarter
+' m    | Month
+' y    | Day of year
+' d    | Day
+' w    | Weekday
+' ww   | Week
+' h    | Hour
+' n    | Minute
+' s    | Second
 End Function
 
 ''' <summary>Returns the number of intervals between two dates.</summary>
